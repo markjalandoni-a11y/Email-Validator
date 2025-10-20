@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import BulkEmailValidator from './components/BulkEmailValidator';
 import EmailValidator from './components/EmailValidator';
+import InfoSection from './components/InfoSection';
 
 type View = 'single' | 'bulk';
 
@@ -53,9 +54,20 @@ function App() {
         <div className="max-w-4xl mx-auto">
           {view === 'single' ? <EmailValidator /> : <BulkEmailValidator />}
         </div>
+        <InfoSection />
       </main>
       <footer className="text-center py-4 text-gray-500 dark:text-gray-400 text-sm">
-        <p>Powered by Aivate</p>
+        <p>
+          Powered by{' '}
+          <a
+            href="https://aivate.net"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Aivate
+          </a>
+        </p>
       </footer>
     </div>
   );
