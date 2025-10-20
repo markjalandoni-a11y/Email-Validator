@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import BulkEmailValidator from './components/BulkEmailValidator';
 import EmailValidator from './components/EmailValidator';
@@ -11,7 +10,7 @@ function App() {
   const header = (
     <div className="text-center p-6 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
       <h1 className="text-4xl font-bold text-gray-800 dark:text-white">
-        Gemini Email Validator
+        Aivate Email Validator
       </h1>
       <p className="mt-2 text-lg text-gray-600 dark:text-gray-300">
         AI-powered email verification for single or bulk lists.
@@ -56,7 +55,7 @@ function App() {
         </div>
       </main>
       <footer className="text-center py-4 text-gray-500 dark:text-gray-400 text-sm">
-        <p>Powered by Google Gemini</p>
+        <p>Powered by Aivate</p>
       </footer>
     </div>
   );

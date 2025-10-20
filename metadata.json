@@ -1,5 +1,5 @@
 {
-  "name": "Copy of Gemini Email Validator",
-  "description": "An intelligent email validation tool powered by Gemini. Validate single emails or process lists in bulk to check for syntax, domain reachability, and risk factors.",
+  "name": "Aivate Email Validator",
+  "description": "An intelligent email validation tool powered by Aivate. Validate single emails or process lists in bulk to check for syntax, domain reachability, and risk factors.",
   "requestFramePermissions": []
 }
